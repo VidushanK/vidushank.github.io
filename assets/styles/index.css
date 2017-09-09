@@ -8,7 +8,9 @@
     padding-bottom: 102px;
     padding: 64px 0;
 }
-
+h1.title{
+  text-align: center;
+}
 .skills-content h1{
     font-family: 'Droid Sans', sans-serif;
     font-size: 2rem;
@@ -33,3 +35,47 @@
     text-align: center;
     font-style: normal;
 }
+.projects { margin: 100px 0; }
+
+.projects-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  min-width: 300px;
+  margin: 30px 15px 0 15px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.project-info {
+  flex: 1;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.git {
+  display: block;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px solid ;
+}
+
+.git:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+.project-info h3 { margin: 0; }
+
+.big { flex: 2; }
