@@ -26,7 +26,6 @@ h1.title{
     font-size: 76px;
     margin: 4px 8px;
     position: relative;
-    transition: all 300ms cubic-bezier(.69,.2,.22,.99);
 }
 
 .skills-content i.text{
@@ -48,9 +47,6 @@ h1.title{
   height: 300px;
   min-width: 300px;
   margin: 30px 15px 0 15px;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
 }
 
 .project-info {
