@@ -2,15 +2,56 @@
     background-color: #f3f3f3;
     padding-bottom: 64px;
 }
+
 #skills{
     background-color: #3f3d4e;
     color: white;
     padding-bottom: 102px;
     padding: 64px 0;
 }
-h1.title{
-  text-align: center;
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
 }
+/*header*/
+.nav-left{
+    text-align: -webkit-center;
+    display: inline-flex;
+}
+
+.container{
+    text-align: center;
+}
+
+.header{
+    background: #73C8A9;
+    height: 700px;
+    align-items: center;
+}
+.header-wrapper{
+    margin-top: 175px;
+    text-align: center;
+}
+.subtitle {
+    font-family: 'Frijole', sans-serif;
+    color: white;
+}
+
+h2.name{
+    font-family: 'Frijole', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+h1.title{
+    text-align: center;
+}
+nav.nav-menu{
+  font-family: 'Permanent Marker', sans-serif;
+}
+
+
+
+
 .skills-content h1{
     font-family: 'Droid Sans', sans-serif;
     font-size: 2rem;
@@ -21,6 +62,9 @@ h1.title{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.skills-icons .hover:hover{
+    color: #73C8A9;
 }
 .skills-content i{
     font-size: 76px;
@@ -37,24 +81,24 @@ h1.title{
 .projects { margin: 100px 0; }
 
 .projects-row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-  min-width: 300px;
-  margin: 30px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    min-width: 300px;
+    margin: 30px 15px 0 15px;
 }
 
 .project-info {
-  flex: 1;
-  background-color: #f3f3f3;
-  border-radius: 15px;
-  padding: 20px;
-  overflow: hidden;
+    flex: 1;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: hidden;
 }
 
 .git {
