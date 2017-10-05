@@ -7,7 +7,7 @@ var duration = 1;
 var backgroundResize = function() {
   var doc = document.documentElement || document.body;
     var widthForBG = doc.clientHeight * 1.669133771929825;
-    document.getElementById("bg")
+    document.getElementById("hero")
   }
 
   var windowResize = function(object, type, callback) {
@@ -26,5 +26,5 @@ var backgroundResize = function() {
 
   setInterval(function () {
     readjust += movement;
-    document.getElementById("bg").style.backgroundPosition = readjust + "px 0px"
+    document.getElementById("hero").style.backgroundPosition = readjust + "px 0px"
   }, duration);
