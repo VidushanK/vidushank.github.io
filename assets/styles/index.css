@@ -41,7 +41,6 @@ body{
 }
 
 .header{
-
     height: 700px;
     align-items: center;
 }
@@ -70,7 +69,10 @@ nav.nav-menu{
 .nav-item a:not(.button), a.nav-item:not(.button){
   color: white;
 }
-
+.nav-item a:not(.button), a.nav-item:not(.button):hover{
+    cursor: pointer;
+    color: #9e9999;
+  }
 
 .skills-content h1{
     font-family: 'Droid Sans', sans-serif;
@@ -114,6 +116,7 @@ h1.title.Project { color: white !important; }
 }
 
 .project-info {
+    cursor: pointer;
     flex: 1;
     background-color: #f3f3f3;
     border-radius: 15px;
