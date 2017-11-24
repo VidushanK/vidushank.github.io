@@ -1,51 +1,57 @@
-
-#about{
-    padding-bottom: 64px;
+body {
+    margin-top:50px;
+    background-color: #3f3d4e;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+#about {
+    /*padding-bottom: 64px;
     display: flex;
     max-width: 1150px;
     align-items: center;
     margin: 0 auto;
-    text-align: left;
+    text-align: left;*/
     background-color: #f3f3f3;
     border-radius: 20px;
+    display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1320px;
+  text-align: left;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 5px 15px #718caf;
+  text-align: center;
+  /*background-color: #fff;*/
+  /*margin: 10px 0;*/
+   text-align: justify;
+
 }
 
-#projects {
-  .Project{
-    color: white !important;
-  }
-  background-color: #3f3d4e;
-}
 
-#skills{
+#skills {
     background-color: #5a576d;
     color: white;
     padding-bottom: 102px;
     padding: 64px 0;
 }
 
-body{
-  margin-top:50px;
-  background-color: #3f3d4e;
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-}
 /*header*/
-.nav-left{
+.nav-left {
     text-align: -webkit-center;
     display: inline-flex;
 }
 
-.container{
+.container {
     text-align: center;
 }
 
-.header{
+.header {
     height: 700px;
     align-items: center;
 }
 
-.header-wrapper{
+.header-wrapper {
     margin-top: 175px;
     text-align: center;
 }
@@ -55,7 +61,7 @@ body{
     color: white !important;
 }
 
-h2.name{
+h2.name {
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 50px;
@@ -63,16 +69,16 @@ h2.name{
 h1.title{
     text-align: center;
 }
-nav.nav-menu{
-  font-family: 'Permanent Marker', sans-serif;
+nav.nav-menu {
+    font-family: 'Permanent Marker', sans-serif;
 }
 .nav-item a:not(.button), a.nav-item:not(.button){
-  color: white;
+    color: white;
 }
 .nav-item a:not(.button), a.nav-item:not(.button):hover{
     cursor: pointer;
     color: #9e9999;
-  }
+}
 
 .skills-content h1{
     font-family: 'Droid Sans', sans-serif;
@@ -108,6 +114,7 @@ nav.nav-menu{
 }
 h1.title.Project { color: white !important; }
 .project {
+
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -116,6 +123,7 @@ h1.title.Project { color: white !important; }
 }
 
 .project-info {
+  box-shadow: 0 5px 15px #718caf;
     cursor: pointer;
     flex: 1;
     background-color: #f3f3f3;
@@ -138,7 +146,7 @@ h1.title.Project { color: white !important; }
   margin: 0;
   text-align: center;
   font-weight: bold;
-  border-bottom: 3px solid ;
+  border-bottom: 3px solid;
 }
 
 .git:hover {
@@ -161,13 +169,7 @@ h1.title.Project { color: white !important; }
     margin-bottom: 40px;
   }
 }
-@media (min-width: 500px) {
-  .about p {
-    margin: 10px 0;
-    /*text-align: left;*/
-    font-size: 15px;
-  }
-}
+
 
 /* 	Background Edit Settings Here  */
 
