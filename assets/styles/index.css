@@ -5,27 +5,17 @@ body {
     font-size: 17px;
 }
 #about {
-    /*padding-bottom: 64px;
-    display: flex;
-    max-width: 1150px;
-    align-items: center;
-    margin: 0 auto;
-    text-align: left;*/
     background-color: #f3f3f3;
     border-radius: 20px;
     display: flex;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 1320px;
-  text-align: left;
-  position: relative;
-  z-index: 10;
-  box-shadow: 0 5px 15px #718caf;
-  text-align: center;
-  /*background-color: #fff;*/
-  /*margin: 10px 0;*/
-   text-align: justify;
-
+    align-items: center; 
+    margin: 0 auto;
+    max-width: 1320px;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 5px 15px #718caf;
+    text-align: center;
 }
 
 
@@ -170,16 +160,12 @@ h1.title.Project { color: white !important; }
   }
 }
 
-
-/* 	Background Edit Settings Here  */
-
 #hero {
 		background: #212121 url("https://farm9.staticflickr.com/8007/29367662245_13b560c2c6_h.jpg") top left;
 		background-repeat: repeat-x;
 		height: 700px;
 		left: 0;
 		opacity: 1;
-/*  Change postition to Fixed to lock the background for the whole document  */
 		position: absolute;
 		top: 0;
     width: 100%;
