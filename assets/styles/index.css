@@ -8,7 +8,7 @@ body {
     background-color: #f3f3f3;
     border-radius: 20px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     margin: 0 auto;
     max-width: 1320px;
     text-align: left;
@@ -104,7 +104,6 @@ nav.nav-menu {
 }
 h1.title.Project { color: white !important; }
 .project {
-
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -113,13 +112,17 @@ h1.title.Project { color: white !important; }
 }
 
 .project-info {
-  box-shadow: 0 5px 15px #718caf;
+    box-shadow: 0 5px 15px #718caf;
     cursor: pointer;
     flex: 1;
     background-color: #f3f3f3;
     border-radius: 15px;
     padding: 20px;
     overflow: hidden;
+}
+.project-info:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
 }
 
 .avatar {
