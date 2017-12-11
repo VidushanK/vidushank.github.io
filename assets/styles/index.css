@@ -17,6 +17,10 @@ body {
     box-shadow: 0 5px 15px #718caf;
     text-align: center;
 }
+#about:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+}
 
 
 #skills {
@@ -153,7 +157,6 @@ h1.title.Project { color: white !important; }
 
 @media (max-width: 1100px) {
   #about {
-    display: flex;
     flex-direction: column;
   }
 
