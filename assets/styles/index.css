@@ -157,6 +157,7 @@ h1.title.Project { color: white !important; }
 
 @media (max-width: 1100px) {
   #about {
+    display: flex;
     flex-direction: column;
   }
 
@@ -165,6 +166,13 @@ h1.title.Project { color: white !important; }
     margin-bottom: 40px;
   }
 }
+@media (max-width: 500px) {
+   .about p {
+   margin: 10px 0;
+    /*text-align: left;*/
+    font-size: 15px;
+   }
+ }
 
 #hero {
 		background: #212121 url("https://farm9.staticflickr.com/8007/29367662245_13b560c2c6_h.jpg") top left;
