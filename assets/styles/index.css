@@ -177,7 +177,7 @@ h1.title.Project { color: white !important; }
 #hero {
 		background: #212121 url("https://farm9.staticflickr.com/8007/29367662245_13b560c2c6_h.jpg") top left;
 		background-repeat: repeat-x;
-		height: 87vh;
+		height: 100vh;
 		left: 0;
 		opacity: 1;
 		position: absolute;
