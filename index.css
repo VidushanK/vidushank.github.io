@@ -127,7 +127,7 @@ h1.title.Project { color: white !important; }
     padding: 20px;
     overflow: hidden;
 }
-.project-info p {
+div.project-info p {
   color: black !important;
 }
 .project-info:hover {
@@ -153,9 +153,9 @@ h1.title.Project { color: white !important; }
 }
 
 .project-wrapper{
-  display: flex;
-  height: 300px;
-  flex: 1;
+  display: flex !important;
+  height: 300px !important;
+  flex: 1 !important;
 }
 
 .git:hover {
