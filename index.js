@@ -34,7 +34,16 @@ var backgroundResize = function() {
 
 var typed2 = new Typed('.typed', {
    strings: ["Hey, i'm Vidushan"],
-   typeSpeed: 30,
+   typeSpeed: 40,
    fadeOut: true,
-   loop: false
+   loop: false,
+   cursorChar: '_',
  });
+
+ var typed2 = new Typed('.subtitle', {
+    strings: ["I'm Full-Stack Web Developer, based in Vancouver, BC!", 'I love developing sites using various programming languages!', 'I love figuring out ways to improve user experience!'],
+    typeSpeed: 60,
+    fadeOut: true,
+    loop: true,
+    cursorChar: '_',
+ })
