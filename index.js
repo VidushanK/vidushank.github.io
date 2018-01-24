@@ -1,9 +1,10 @@
+
 var width = 6089;
 var height = 3648;
 var formula = width / height;
 var movement = 0.1;
 var duration = 1;
-
+// Moving Background
 var backgroundResize = function() {
   var doc = document.documentElement || document.body;
     var widthForBG = doc.clientHeight * 1.669133771929825;
@@ -28,3 +29,12 @@ var backgroundResize = function() {
     readjust += movement;
     document.getElementById("hero").style.backgroundPosition = readjust + "px 0px"
   }, duration);
+
+// Typed.js
+
+var typed2 = new Typed('.typed', {
+   strings: ["Hey, i'm Vidushan"],
+   typeSpeed: 30,
+   fadeOut: true,
+   loop: false
+ });

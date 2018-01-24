@@ -4,46 +4,22 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 17px;
 }
-#about {
-    background-color: #f3f3f3;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1320px;
-    text-align: left;
-    position: relative;
-    z-index: 10;
-    box-shadow: 0 5px 15px #718caf;
-    text-align: center;
-}
-#about:hover {
-    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
-    transform: translate3D(0, -2px, 0);
-}
-
-
-#skills {
-    background-color: #5a576d;
-    color: white;
-    padding-bottom: 102px;
-    padding: 64px 0;
-}
-
-/*header*/
-.nav-left {
-    text-align: -webkit-center;
-    display: inline-flex;
-}
-
-.container {
-    text-align: center;
-}
 
 .header {
     height: 700px;
     align-items: center;
 }
+
+#hero {
+		background: #212121 url("https://farm9.staticflickr.com/8007/29367662245_13b560c2c6_h.jpg") top left;
+		background-repeat: repeat-x;
+		height: 100vh;
+		left: 0;
+		opacity: 1;
+		position: absolute;
+		top: 0;
+    width: 100%;
+	}
 
 .header-wrapper {
     margin-top: 255px;
@@ -51,7 +27,7 @@ body {
 }
 
 .subtitle {
-    font-family: 'Frijole', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white !important;
 }
 
@@ -64,7 +40,7 @@ h1.title{
     text-align: center;
 }
 nav.nav-menu {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-item a:not(.button), a.nav-item:not(.button){
     color: white;
@@ -73,130 +49,3 @@ nav.nav-menu {
     cursor: pointer;
     color: #9e9999;
 }
-
-.skills-content h1{
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.skills-icons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.skills-icons .hover:hover{
-    color: #73C8A9;
-}
-.skills-content i{
-    font-size: 76px;
-    margin: 4px 8px;
-    position: relative;
-}
-
-.skills-content i.text{
-    font-size: 1.5rem;
-    width: 100%;
-    text-align: center;
-    font-style: normal;
-}
-.projects { margin: 100px 0; }
-
-.projects-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1.title.Project { color: white !important; }
-
-.project {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    min-width: 300px;
-    margin: 30px 15px 0 15px;
-}
-
-.project-info {
-    display: block;
-    box-shadow: 0 5px 15px #718caf;
-    cursor: pointer;
-    flex: 1;
-    background-color: #f3f3f3;
-    border-radius: 15px;
-    padding: 20px;
-    overflow: hidden;
-}
-div.project-info p {
-  color: black !important;
-}
-.project-info:hover {
-    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
-    transform: translate3D(0, -2px, 0);
-}
-
-.avatar {
-    display: block;
-    height: 180px!important;
-    width:180px !important;
-    margin-right: 30px;
-    border-radius: 100px;
-}
-
-.git {
-  display: block;
-  padding: 10px;
-  margin: 0;
-  text-align: center;
-  font-weight: bold;
-  border-bottom: 3px solid;
-}
-
-.project-wrapper{
-  display: flex !important;
-  height: 300px !important;
-  flex: 1 !important;
-}
-
-.git:hover {
-  color: #3f4c6b;
-  transition: 0.5s;
-}
-
-.project-info h3 {
-  margin: 0;
-}
-
-.big {
-  flex: 2;
-}
-
-@media (max-width: 1100px) {
-  #about {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .avatar {
-    margin: 10px auto;
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 500px) {
-   .about p {
-   margin: 10px 0;
-    /*text-align: left;*/
-    font-size: 15px;
-   }
- }
-
-#hero {
-		background: #212121 url("https://farm9.staticflickr.com/8007/29367662245_13b560c2c6_h.jpg") top left;
-		background-repeat: repeat-x;
-		height: 100vh;
-		left: 0;
-		opacity: 1;
-		position: absolute;
-		top: 0;
-    width: 100%;
-	}

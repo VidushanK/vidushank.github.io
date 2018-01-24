@@ -1,0 +1,22 @@
+{
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VidushanK/vidushank.github.io.git"
+  },
+  "author": "Vidushan Kohiladas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VidushanK/vidushank.github.io/issues"
+  },
+  "homepage": "https://github.com/VidushanK/vidushank.github.io#readme",
+  "dependencies": {
+    "typed.js": "^2.0.6"
+  }
+}
