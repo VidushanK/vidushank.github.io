@@ -1,6 +1,6 @@
 function showType(){
   var typed2 = new Typed('.typed', {
-     strings: ["Hey, i'm Vidushan"],
+     strings: ["Hey, I'm Vidushan"],
      typeSpeed: 40,
      fadeOut: true,
      loop: false,
