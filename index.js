@@ -7,7 +7,7 @@ function showType(){
    });
 
    var typed2 = new Typed('.subtitle', {
-      strings: ["I'm Full-Stack Web Developer, based in Vancouver, BC!", 'I love developing sites using various programming languages!', 'I love figuring out ways to improve user experience!'],
+      strings: ["I'm a Full-Stack Web Developer, based in Vancouver, BC!", 'I love developing sites using various programming languages!', 'I love figuring out ways to improve user experience!'],
       typeSpeed: 60,
       fadeOut: true,
       loop: true,
