@@ -32,7 +32,7 @@ function submitForm() {
     var message = $("#message").val();
     $.ajax({
         type: "POST",
-        url: "contact.php",
+        url: "https://vidushan.com/php/contact.php",
         data: "name=" + name + "&email=" + email + "&msg_subject=" +
             msg_subject + "&message=" + message,
         success: function(text) {
